@@ -122,23 +122,21 @@ h2 {
 #dogs {
 	display: inline;
 	font-size: 1em;
-	float: left;
+	float: right;
 }
 
 
 #dogs p {
 	float: left;
-	text-align: left;
+	text-align: right;
 	display: block; /*--For inline elements only--*/
 }
 
 #catpic {
-	margin: 0 auto;
 	display: block; /*--Since IMG is an inline element--*/	
 }
 
 #dogpic {
-	margin: 0 auto;
 	display: block; /*--Since IMG is an inline element--*/
 }
 
