@@ -118,9 +118,3 @@ body{
 	float: left;
 	font-family: serif;
 }
-
-.post-footer {
-	font-size: small;
-	border-bottom:3px solid black;
-	bottom:0px;
-}
