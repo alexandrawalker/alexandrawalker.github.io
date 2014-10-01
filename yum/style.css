@@ -60,6 +60,7 @@ header h1 {
 	font-size: 3.5em;
 	font-family: sans-serif;
 	font-variant: small-caps;
+	font-weight: bold;
 }
 
 #serves { 
@@ -68,10 +69,10 @@ header h1 {
 	font-family: serif;
 }
 
-#ingredients {
-	
+#ingredients h2{
+	font-weight: bold;
 }
 
-#method {
-	
+#method h2{
+	font-weight: bold;
 }
