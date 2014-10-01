@@ -77,8 +77,8 @@ header h1 {
 }
 
 ul {
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
 }
 
 li {
@@ -126,6 +126,6 @@ h2 {
 
 .post-footer {
 	font-size: small;
-	border-bottom:3px solid black;
+	border-top:3px solid black;
 	bottom:0px;
 }
