@@ -67,9 +67,7 @@ header h1 {
 
 #top-menu {
 	display: inline;
-	float: left;
 	list-style: none;
-	width: 960px;
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
@@ -85,13 +83,9 @@ ul {
 
 li {
     display: inline;
-	float: left;
-	margin: 0;
-	padding: 0;
 }
 
 .menu a {
-	float: left;
 	display: inline-block;
 	text-align: center;
 	padding: 20px;
