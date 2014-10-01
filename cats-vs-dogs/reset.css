@@ -54,9 +54,8 @@ table {
 
 body{
 	position: relative;
-	height: 60%;
 	font-family: serif;
-	font-style: georgia;
+	font-style: Georgia;
 	line-height: 1.5em;
 	font-size: 1em;
 }
@@ -67,9 +66,7 @@ body{
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	text-align: center;
 	text-transform: uppercase;
-	font-family: Georgia;
 	float: left;
 	text-decoration: none;
 }
