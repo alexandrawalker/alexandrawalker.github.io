@@ -78,10 +78,11 @@ header h1 {
 	font-family: Georgia;
 }
 
-.menu {
+.menu a {
 	text-align: center;
 	text-decoration: none;
 	float: left;
+	color: #fff;
 }
 
 #cats {
