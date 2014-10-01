@@ -52,6 +52,14 @@ table {
 
 /* END RESET */
 
+body{
+	position: relative;
+	height: 60%;
+	font-family: serif;
+	font-style: georgia;
+	line-height: 1.5em;
+	font-size: 1em;
+}
 
 #top-menu {
 	border-top: 2px solid black;
@@ -112,6 +120,6 @@ table {
 
 .post-footer {
 	font-size: small;
-	border-top:3px solid black;
+	border-bottom:3px solid black;
 	bottom:0px;
 }
