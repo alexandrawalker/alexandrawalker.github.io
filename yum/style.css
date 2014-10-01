@@ -58,5 +58,8 @@ header h1 {
 	height: 150px;
 	color: #000;
 	max-width: 1820px;
+	font-size: 3.5em;
+	font-family: sans-serif;
+	font-variant: small-caps;
 }
 
