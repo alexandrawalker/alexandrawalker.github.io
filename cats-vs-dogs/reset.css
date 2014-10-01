@@ -67,8 +67,6 @@ header h1 {
 
 #top-menu {
 	display: inline;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -78,6 +76,11 @@ header h1 {
 	text-align: center;
 }
 
+ul {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
 li {
     display: inline;
 }
@@ -85,7 +88,7 @@ li {
 .menu a {
 	display: inline-block;
 	text-align: center;
-	padding: 20px;
+	padding: 30px;
 	text-decoration: none;
 	color: #000;
 	font-size: 1em;
