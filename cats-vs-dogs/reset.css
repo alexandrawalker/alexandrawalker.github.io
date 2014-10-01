@@ -67,7 +67,9 @@ header h1 {
 
 #top-menu {
 	display: inline;
+	float: left;
 	list-style: none;
+	width: 960px;
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
@@ -83,10 +85,14 @@ ul {
 
 li {
     display: inline;
+	float: left;
+	margin: 0;
+	padding: 0;
 }
 
 .menu a {
-	display: inline-block;
+	float: left;
+	display: block;
 	text-align: center;
 	padding: 20px;
 	text-decoration: none;
@@ -109,10 +115,14 @@ h2 {
 	font-weight: bold;
 	font-family: sans-serif;
 	margin-bottom: .5em;
+	text-align: center;
+	display: block; /*--For inline elements only--*/
 }
 
 #cats p {
 	float: left;
+	text-align: center;
+	display: block; /*--For inline elements only--*/
 }
 
 #dogs {
@@ -124,6 +134,18 @@ h2 {
 
 #dogs p {
 	float: left;
+	text-align: center;
+	display: block; /*--For inline elements only--*/
+}
+
+#catpic {
+	margin: 0 auto;
+	display: block; /*--Since IMG is an inline element--*/	
+}
+
+#dogpic {
+	margin: 0 auto;
+	display: block; /*--Since IMG is an inline element--*/
 }
 
 .post-footer {
