@@ -119,6 +119,7 @@ h2 {
 	text-align: left;
 	display: block; /*--For inline elements only--*/
 	max-width: 40%;
+	padding: 20px;
 }
 
 #dogs {
@@ -136,6 +137,7 @@ h2 {
 	text-align: left;
 	display: block; /*--For inline elements only--*/
 	max-width: 40%;
+	padding: 20px;
 }
 
 #catpic {
