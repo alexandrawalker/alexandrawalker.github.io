@@ -79,6 +79,14 @@ table {
 	float: left;
 }
 
+#cats {
+	font-size: 1em;
+	float: left;
+	max-width: 25%;
+	margin-left: 15%;
+	margin-bottom: 4%;
+}
+
 #cats h2 {
 	float: left;
 	font-weight: bold;
