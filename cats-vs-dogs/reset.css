@@ -52,12 +52,18 @@ table {
 
 /* END RESET */
 
-body{
+body {
 	position: relative;
 	font-family: serif;
 	font-style: Georgia;
 	line-height: 1.5em;
 	font-size: 1em;
+}
+
+header h1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
 }
 
 #top-menu {
@@ -69,8 +75,14 @@ body{
 	text-transform: uppercase;
 	float: left;
 	text-decoration: none;
+	font-family: Georgia;
 }
 
+.menu {
+	text-align: center;
+	text-decoration: none;
+	float: left;
+}
 
 #cats {
 	font-size: 1em;
