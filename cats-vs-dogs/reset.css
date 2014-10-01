@@ -76,3 +76,29 @@ table {
 	font-family: Georgia;
 	text-decoration: none;
 }
+
+#cats h2 {
+	float: left;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+#cats p {
+	float: left;
+	font-family: serif;
+}
+
+#dogs h2 {
+	float: left;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+#dogs p {
+	float: left;
+	font-family: serif;
+}
+
+.post-footer {
+	
+}
