@@ -101,7 +101,7 @@ li {
 	float: left;
 }
 
-#cats h2 {
+h2 {
 	font-size: 1.5em;
 	float: left;
 	font-weight: bold;
@@ -118,13 +118,7 @@ li {
 	font-size: 1em;
 	float: left;
 }
-#dogs h2 {
-	font-size: 1.5em;
-	float: left;
-	font-weight: bold;
-	font-family: sans-serif;
-	margin-bottom: .5em;
-}
+
 
 #dogs p {
 	float: left;
