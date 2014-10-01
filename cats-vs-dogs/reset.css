@@ -65,3 +65,14 @@ table {
 	text-decoration: none;
 }
 
+.menu {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Georgia;
+	text-decoration: none;
+}
