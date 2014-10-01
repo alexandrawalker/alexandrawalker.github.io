@@ -118,7 +118,7 @@ h2 {
 	float: left;
 	text-align: left;
 	display: block; /*--For inline elements only--*/
-	max-width: 5%;
+	max-width: 75%;
 }
 
 #dogs {
