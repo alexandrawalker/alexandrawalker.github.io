@@ -95,6 +95,7 @@ li {
 }
 
 #cats {
+	margin-top: 5%;
 	display: inline;
 	font-size: 1em;
 	float: left;
