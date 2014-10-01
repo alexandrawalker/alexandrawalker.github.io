@@ -90,6 +90,7 @@ body{
 }
 
 #cats h2 {
+	font-size: 2em;
 	float: left;
 	font-weight: bold;
 	font-family: sans-serif;
@@ -106,6 +107,7 @@ body{
 	float: left;
 }
 #dogs h2 {
+	font-size: 2em;
 	float: left;
 	font-weight: bold;
 	font-family: sans-serif;
