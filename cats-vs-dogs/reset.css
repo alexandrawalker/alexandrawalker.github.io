@@ -97,19 +97,21 @@ table {
 
 #dogs {
 	font-size: 1em;
-	float: left;
+	float: right;
 }
 #dogs h2 {
-	float: left;
+	float: right;
 	font-weight: bold;
 	font-family: sans-serif;
 }
 
 #dogs p {
-	float: left;
+	float: right;
 	font-family: serif;
 }
 
 .post-footer {
-	border-top: 2px solid black;
+	font-size: small;
+	border-top:3px solid black;
+	bottom:0px;
 }
