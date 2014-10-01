@@ -55,7 +55,7 @@ table {
 body {
 	position: relative;
 	font-family: serif;
-	font-style: Georgia;
+	font-style: Georgia, serif;
 	line-height: 1.5em;
 	font-size: 1em;
 }
@@ -99,7 +99,6 @@ header h1 {
 
 #cats p {
 	float: left;
-	font-family: serif;
 }
 
 #dogs {
@@ -116,7 +115,6 @@ header h1 {
 
 #dogs p {
 	float: left;
-	font-family: serif;
 }
 
 .post-footer {
