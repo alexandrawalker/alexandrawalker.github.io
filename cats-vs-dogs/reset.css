@@ -67,6 +67,7 @@ header h1 {
 }
 
 #top-menu {
+	display: inline;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 	list-style: none;
@@ -76,13 +77,17 @@ header h1 {
 	float: left;
 	text-decoration: none;
 	font-family: Georgia;
+	text-align: center;
 }
 
 .menu a {
+	display: inline-block;
 	text-align: center;
+	padding: 10px;
 	text-decoration: none;
 	float: left;
 	color: #000;
+	font-size: 1em;
 }
 
 #cats {
