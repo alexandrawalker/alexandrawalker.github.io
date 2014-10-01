@@ -50,28 +50,7 @@ table {
 	border-spacing: 0;
 }
 
-
-/* Center Content */
-
-.centered { 
-  margin:0 auto;
-  width:960px;
-}
-
-
-/* Clearfix */
-.clearfix:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
-}
- 
-.clearfix { display: inline-block; }
-html[xmlns] .clearfix { display: block; }
-* html .clearfix { height: 1%; }
+/* END RESET */
 
 
 #top-menu {
@@ -83,5 +62,6 @@ html[xmlns] .clearfix { display: block; }
 	text-align: center;
 	text-transform: uppercase;
 	font-family: Georgia;
+	text-decoration: none;
 }
 
