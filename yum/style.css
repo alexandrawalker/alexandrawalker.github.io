@@ -53,4 +53,10 @@ table {
 
 /* END RESET */
 
+header {
+	background-color: #000000;
+	height: 150px;
+	color: #FFFFFF;
+	max-width: 1820px;
+}
 
