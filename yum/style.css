@@ -63,6 +63,7 @@ header h1 {
 	font-variant: small-caps;
 }
 
-#serves {
-	
+#serves { 
+	font-variant: lowercase;
+	font-size: 1em;
 }
