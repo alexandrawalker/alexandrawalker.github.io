@@ -92,7 +92,7 @@ li {
 
 .menu a {
 	float: left;
-	display: block;
+	display: inline-block;
 	text-align: center;
 	padding: 20px;
 	text-decoration: none;
@@ -121,7 +121,7 @@ h2 {
 
 #cats p {
 	float: left;
-	text-align: center;
+	text-align: left;
 	display: block; /*--For inline elements only--*/
 }
 
@@ -134,7 +134,7 @@ h2 {
 
 #dogs p {
 	float: left;
-	text-align: center;
+	text-align: left;
 	display: block; /*--For inline elements only--*/
 }
 
