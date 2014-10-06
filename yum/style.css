@@ -76,6 +76,11 @@ header h1 {
 	clear: both;
 }
 
+#ingredients {
+	width: 40%;
+	float: left;
+}
+
 #ingredients h2{
 	font-weight: bold;
 	float: left;
@@ -90,5 +95,6 @@ header h1 {
 }
 
 #footer {
+	clear: both;
 	text-decoration: none;
 }
