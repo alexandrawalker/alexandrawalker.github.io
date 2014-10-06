@@ -123,6 +123,7 @@ li {
 
 #cats {
 	margin-right: 35px;
+	margin-left: 5px;
 	width: 45%;
 	font-size: 1em;
 	float: left;
