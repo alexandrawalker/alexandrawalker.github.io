@@ -53,6 +53,10 @@ table {
 
 /* END RESET */
 
+body{
+	margin: 10%;
+}
+
 header h1 {
 	background-color: #fff;
 	color: #000;
