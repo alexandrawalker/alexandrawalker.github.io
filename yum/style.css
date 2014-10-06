@@ -75,7 +75,6 @@ header h1 {
 }
 
 #ingredients {
-	clear: both;
 	width: 30%;
 	float: left;
 }
@@ -86,7 +85,6 @@ header h1 {
 }
 
 #method {
-	clear: both;
 	width: 30%;
 	float: left;
 }
