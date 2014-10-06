@@ -158,14 +158,28 @@ h2 {
 	display: block; /*--Since IMG is an inline element--*/
 }
 
-.post-footer {
+.left {
 	font-size: small;
 	clear: both;
 	border-top:3px solid black;
 	bottom:0px;
+	float: left;
 }
 
-.post-footer a {
+.left a {
+	text-decoration: none;
+	color: #000;
+}
+
+.right {
+	font-size: small;
+	clear: both;
+	border-top:3px solid black;
+	bottom:0px;
+	float: right;
+}
+
+.right a {
 	text-decoration: none;
 	color: #000;
 }
