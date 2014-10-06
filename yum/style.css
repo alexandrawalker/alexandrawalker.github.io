@@ -75,11 +75,11 @@ header h1 {
 }
 
 .s {
-	font-weight:bold;
+	font-weight:bold;float:left;
 }
 
 .t {
-	font-weight:bold;
+	font-weight:bold;float:left;
 }
 
 #ingredients {
