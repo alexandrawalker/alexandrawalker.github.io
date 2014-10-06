@@ -120,14 +120,14 @@ li {
 
 #cats {
 	margin-left: 15px;
-	width: 50%;
+	width: 40%;
 	font-size: 1em;
 	float: left;
 }
 
 #dogs {
 	margin-right: 15px;
-	width: 50%;
+	width: 40%;
 	font-size: 1em;
 	float: left;
 }
