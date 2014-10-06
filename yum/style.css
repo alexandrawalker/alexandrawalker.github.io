@@ -72,11 +72,10 @@ header h1 {
 	font-size: 1em;
 	font-family: serif;
 	float: left;
-	width: 40%;
-	clear: both;
 }
 
 #ingredients {
+	clear: both;
 	width: 40%;
 	float: left;
 }
@@ -87,6 +86,7 @@ header h1 {
 }
 
 #method {
+	clear: both;
 	width: 40%;
 	float: left;
 }
