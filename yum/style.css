@@ -78,10 +78,12 @@ header h1 {
 
 #ingredients h2{
 	font-weight: bold;
+	float: left;
 }
 
 #method {
 	width: 40%;
+	float: left;
 }
 #method h2{
 	font-weight: bold;
