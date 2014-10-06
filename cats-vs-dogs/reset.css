@@ -118,7 +118,6 @@ h2 {
 	float: left;
 	text-align: left;
 	display: block; /*--For inline elements only--*/
-	max-width: 40%;
 }
 
 
@@ -126,7 +125,6 @@ h2 {
 	float: left;
 	text-align: left;
 	display: block; /*--For inline elements only--*/
-	max-width: 40%;
 }
 
 #catpic {
@@ -139,8 +137,6 @@ h2 {
 
 .post-footer {
 	font-size: small;
-	border-bottom:3px solid black;
-	bottom:0px;
 }
 
 .post-footer a {
