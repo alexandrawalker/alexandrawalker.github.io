@@ -54,13 +54,11 @@ table {
 /* END RESET */
 
 body{
-	margin-left: 10px;
 }
 
 header h1 {
 	background-color: #fff;
 	color: #000;
-	max-width: 1820px;
 	font-size: 4.5em;
 	font-family: sans-serif;
 	font-variant: small-caps;
