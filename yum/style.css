@@ -57,6 +57,7 @@ body{
 }
 
 header h1 {
+	margin-left:2%;
 	background-color: #fff;
 	color: #000;
 	font-size: 4.5em;
@@ -66,13 +67,14 @@ header h1 {
 }
 
 #serves { 
+	margin-left:2%;
 	font-variant: lowercase;
 	font-size: 1em;
 	font-family: serif;
 }
 
 #ingredients {
-	margin-left:5%;
+	margin-left:2%;
 	width: 30%;
 	float: left;
 }
@@ -91,6 +93,7 @@ header h1 {
 }
 
 #footer {
+	margin-left:2%;
 	clear: both;
 	text-decoration: none;
 }
