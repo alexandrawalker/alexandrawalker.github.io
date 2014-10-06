@@ -103,6 +103,7 @@ header h1 {
 ul {
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
+	margin-bottom: 10px;
 }
 
 li {
