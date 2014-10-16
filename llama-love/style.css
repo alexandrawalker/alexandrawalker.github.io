@@ -84,6 +84,7 @@ img {
 	width: 450px;
 	margin: 100px, 20px, 100px, 180px;
 	font-size: 14px;
+	padding:10px;
 }
 
 #llama2 {
@@ -91,4 +92,5 @@ img {
 	width: 450px;
 	margin: 100px, 20px, 100px, 180px;
 	font-size: 14px;
+	padding:10px;
 }
