@@ -121,6 +121,7 @@ header #top-nav a {
 #page {
 	line-height:20px;
 	float:left;
+	padding:100px;
 	width:400px;
 	margin-left:250px;
 }
