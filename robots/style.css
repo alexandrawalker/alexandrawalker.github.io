@@ -126,3 +126,7 @@ header {
 	font-size:20px;
 	text-transform: uppercase;
 }
+
+#sidebar {
+	float:left;
+}
