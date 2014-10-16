@@ -71,7 +71,7 @@ body {
 }
 
 header {
-	background-color: #FFFFCC;
+	background-color: lightgoldenrodyellow;
 }
 
 #main-menu {
@@ -101,5 +101,5 @@ header {
 	color: #fff;
 	font-size:.75em;
 	padding:10px;
-	background-color: brown;
+	background-color: saddlebrown;
 }
