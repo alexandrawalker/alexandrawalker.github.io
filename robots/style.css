@@ -74,6 +74,7 @@ body {
 
 #main-menu li {
     display: inline;
+	background-color: sienna;
 }
 
 #main-menu a {
@@ -81,6 +82,6 @@ body {
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
-	background-color: sienna;
 	font-size:.5em;
+	padding:10px;
 }
