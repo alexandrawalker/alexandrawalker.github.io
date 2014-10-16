@@ -50,6 +50,8 @@ table {
 	border-spacing: 0;
 }
 
+/*   reset all done  */
+
 body {
 	position: relative;
 	line-height: 1.5em;
@@ -68,6 +70,10 @@ body {
     text-indent:-9999px;
 }
 
+header {
+	background-color: sienna;
+}
+
 #main-menu {
 	position:absolute;
 	float:right;
@@ -75,6 +81,7 @@ body {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	width:100%;
 	text-transform: uppercase;
 	text-align: center;
 	background-color: sienna;
