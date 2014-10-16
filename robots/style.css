@@ -71,7 +71,7 @@ body {
 }
 
 header {
-	background-color: yellow;
+	background-color: #FFFFCC;
 }
 
 #main-menu {
@@ -84,7 +84,7 @@ header {
 	width:100%;
 	text-transform: uppercase;
 	text-align: center;
-	background-color: sienna;
+	background-color: 996600;
 }
 
 #main-menu ul {
