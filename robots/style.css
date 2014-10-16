@@ -106,7 +106,7 @@ header {
 	padding:10px;
 }
 
-header #top-nav {
+header #top-nav a {
 	font-size: 12px;
 	color: saddlebrown;
 	text-decoration: none;
