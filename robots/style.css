@@ -84,7 +84,6 @@ header {
 	width:100%;
 	text-transform: uppercase;
 	text-align: center;
-	background-color: brown;
 }
 
 #main-menu ul {
@@ -102,4 +101,5 @@ header {
 	color: #fff;
 	font-size:.75em;
 	padding:10px;
+	background-color: brown;
 }
