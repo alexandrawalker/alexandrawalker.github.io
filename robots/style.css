@@ -107,6 +107,7 @@ header {
 }
 
 header #top-nav a {
+	display:inline-block;
 	font-size: 12px;
 	color: saddlebrown;
 	text-decoration: none;
