@@ -71,12 +71,12 @@ body {
 }
 
 #main-menu ul {
-	background-color: sienna;
 	text-decoration: none;
 }
 
 #main-menu li {
     display: inline;
+	text-decoration: none;
 }
 
 #main-menu a [
