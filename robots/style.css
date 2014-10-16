@@ -57,9 +57,10 @@ body {
 	margin:0 auto;
 	width:90%;
 	font-family: sans-serif;
+	background-color:white;
 }
 
-#site-header a{
+#site-header h1 a {
     display:block;
     width:300px; 
     height:80px;  
