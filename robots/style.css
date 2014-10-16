@@ -67,7 +67,6 @@ body {
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
-	font-weight: bold;
 }
 
 #main-menu ul {
@@ -80,8 +79,8 @@ body {
 #main-menu a {
 display: inline-block;
 text-align: center;
-padding: 20px;
+padding: 10px;
 text-decoration: none;
 color: #fff;
-background-color: brown;
+background-color: sienna;
 }
