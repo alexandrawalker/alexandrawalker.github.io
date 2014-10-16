@@ -58,7 +58,7 @@ body {
 	line-height: 1.5em;
 	font-size: 1em;
 	margin:0 auto;
-	width:70%;
+	width:80%;
 	font-family:sans-serif;
 }
 
@@ -83,10 +83,12 @@ img {
 	float:left;
 	width: 450px;
 	margin: 100px, 20px, 100px, 180px;
+	font-size: 14px;
 }
 
 #llama2 {
 	float:left;
 	width: 450px;
 	margin: 100px, 20px, 100px, 180px;
+	font-size: 14px;
 }
