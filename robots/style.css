@@ -87,6 +87,7 @@ header {
 }
 
 #main-menu ul {
+	margin-left:250px;
 }
 
 #main-menu li {
@@ -101,6 +102,14 @@ header {
 	color: #fff;
 	font-size:.75em;
 	padding:10px;
+}
+
+#page {
+	line-height:20px;
+	float:left;
+	padding:20px;
+	width:500px;
+	margin-left:250px;
 }
 
 #page h1 {
