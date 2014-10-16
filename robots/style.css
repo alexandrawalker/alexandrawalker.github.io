@@ -129,4 +129,6 @@ header {
 
 #sidebar {
 	float:left;
+	height:500px;
+	width:200px;
 }
