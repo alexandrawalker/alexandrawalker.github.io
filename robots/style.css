@@ -109,7 +109,7 @@ header {
 #page {
 	line-height:20px;
 	float:left;
-	padding:50px;
+	padding:100px;
 	width:400px;
 	margin-left:250px;
 }
@@ -137,6 +137,10 @@ header {
 	color:saddlebrown;
 	text-transform:uppercase
 	font-size:15 px;
+}
+
+#sidebar li {
+	line-height:20px;
 }
 
 #sidebar a {
