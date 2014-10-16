@@ -148,3 +148,7 @@ header {
 	padding-bottom:15px;
 	color: saddlebrown;
 }
+
+#footer-wrapper {
+	clear: both;
+}
