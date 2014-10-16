@@ -102,3 +102,15 @@ header {
 	font-size:.75em;
 	padding:10px;
 }
+
+#page h1 {
+	color: saddlebrown;
+	font-size:40px;
+	text-transform: uppercase;
+}
+
+#page h2 {
+	color: saddlebrown;
+	font-size:20px;
+	text-transform: uppercase;
+}
