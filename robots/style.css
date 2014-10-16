@@ -68,7 +68,7 @@ body {
     background:url(images/logo.png) no-repeat top left; 
     text-indent:-9999px;
 	margin-left:250px;
-	padding: 15px;
+	padding: 20px;
 }
 
 header {
@@ -115,6 +115,7 @@ header #top-nav a {
 	right: 20px;
 	top: 10px;
 	float: right;
+	padding:15px;
 }
 
 #page {
