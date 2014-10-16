@@ -128,8 +128,15 @@ header {
 }
 
 #sidebar {
+	float:left;
 	height:500px;
 	width:200px;
+}
+
+#sidebar h1 {
+	color:saddlebrown;
+	text-transform:uppercase
+	font-size:15 px;
 }
 
 #sidebar a {
