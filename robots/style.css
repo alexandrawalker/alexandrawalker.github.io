@@ -77,9 +77,10 @@ body {
 }
 
 #main-menu a {
-display: inline-block;
-text-align: center;
-text-decoration: none;
-color: #fff;
-background-color: sienna;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background-color: sienna;
+	font-size:.5em;
 }
