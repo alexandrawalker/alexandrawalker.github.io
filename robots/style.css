@@ -68,6 +68,7 @@ body {
     background:url(images/logo.png) no-repeat top left; 
     text-indent:-9999px;
 	margin-left:250px;
+	padding: 15px;
 }
 
 header {
