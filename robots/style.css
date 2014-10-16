@@ -149,7 +149,7 @@ header #top-nav a {
 
 #sidebar h1 {
 	color:saddlebrown;
-	text-transform:uppercase
+	text-transform:uppercase;
 	font-size: small;
 	padding-top:50px;
 	font-weight: bold;
@@ -194,7 +194,7 @@ footer {
 	color: lightgoldenrodyellow;
 	float: right;
 	font-size: 20px;
-	text-transform:uppercase
+	text-transform:uppercase;
 	font-weight: bold;
 }
 
