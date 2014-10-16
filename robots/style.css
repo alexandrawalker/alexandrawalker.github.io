@@ -60,6 +60,8 @@ body {
 }
 
 #main-menu {
+	position:absolute;
+	float:right;
 	display: inline;
 	list-style: none;
 	margin: 0;
@@ -67,6 +69,7 @@ body {
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
+	background-color: sienna;
 }
 
 #main-menu ul {
@@ -74,7 +77,6 @@ body {
 
 #main-menu li {
     display: inline;
-	background-color: sienna;
 }
 
 #main-menu a {
@@ -82,6 +84,6 @@ body {
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
-	font-size:.5em;
+	font-size:.75em;
 	padding:10px;
 }
