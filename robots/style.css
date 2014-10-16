@@ -184,7 +184,21 @@ footer {
 }
 
 #footer-contact h1 {
-	text-transform:uppercase;
+	text-transform:uppercase
+	font-weight: bold;
 	color: lightgoldenrodyellow;
 	font-size: 20px;
+}
+
+#footer-follow {
+	color: lightgoldenrodyellow;
+	float: right;
+	font-size: 20px;
+	text-transform:uppercase
+	font-weight: bold;
+}
+
+#footer-follow ul li  {
+	display: inline-block;
+}
 	
