@@ -71,7 +71,8 @@ body {
 }
 
 #main-menu ul {
-	color:brown;
+	background-color: sienna;
+	text-decoration: none;
 }
 
 #main-menu li {
