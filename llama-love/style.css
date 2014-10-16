@@ -81,8 +81,12 @@ img {
 
 #llama1 {
 	float:left;
+	width: 450px;
+	margin: 100px, 20px, 100px, 180px;
 }
 
 #llama2 {
 	float:left;
+	width: 450px;
+	margin: 100px, 20px, 100px, 180px;
 }
