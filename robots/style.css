@@ -184,6 +184,7 @@ footer {
 }
 
 #footer-contact h1 {
+	text-transform:uppercase;
 	color: lightgoldenrodyellow;
 	font-size: 20px;
 	
