@@ -70,13 +70,11 @@ body {
 	font-weight: bold;
 }
 
-ul {
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
-	margin-bottom: 20px;
+#main-menu ul {
+	color:brown;
 }
 
-li {
+#main-menu li {
     display: inline;
 }
 
