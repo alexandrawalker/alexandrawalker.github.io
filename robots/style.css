@@ -110,9 +110,8 @@ header #top-nav a {
 	color: saddlebrown;
 	font-size: 12px;
 	text-decoration: none;
-	text-transform: uppercase;
 	position: absolute;
-	right: 20px;
+	right: 50px;
 	top: 10px;
 	float: right;
 	padding:10px;
@@ -122,7 +121,6 @@ header #top-nav a {
 #page {
 	line-height:20px;
 	float:left;
-	padding:100px;
 	width:400px;
 	margin-left:250px;
 }
