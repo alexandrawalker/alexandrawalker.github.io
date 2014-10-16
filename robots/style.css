@@ -73,6 +73,7 @@ body {
 
 header {
 	background-color: lightgoldenrodyellow;
+	width: 100%;
 }
 
 #main-menu {
@@ -139,6 +140,10 @@ header #top-nav a {
 	color: saddlebrown;
 	font-size:20px;
 	text-transform: uppercase;
+}
+
+p {
+	margin-bottom: 20px;
 }
 
 #sidebar {
