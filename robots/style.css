@@ -114,6 +114,12 @@ header {
 	font-weight: bold;
 }
 
+#top-nav {
+	position:absolute;
+	top: 20px;
+	right:20px;
+}
+
 header #top-nav a {
 	color: saddlebrown;
 	font-size: 12px;
@@ -189,7 +195,6 @@ footer {
 #footer-contact {
 	line-height: 1.5em;
 	width: 250px;
-	padding-left:250px;
 }
 
 #footer-contact h1 {
