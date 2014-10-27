@@ -116,6 +116,14 @@ li {
     display: inline;
 }
 
+
+ul li:after { 
+	content: " \00b7"; 
+}
+ul li.nobullet:after { 
+	content: none; 
+}
+
 .menu a {
 	display: inline-block;
 	text-align: center;
