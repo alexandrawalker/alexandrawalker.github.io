@@ -208,9 +208,9 @@ footer {
 }
 
 @media screen and (max-width:600px) {
-	#top-menu {font-size: 1em;}
+	#top-menu {font-size: .75em;}
 	
 	h2 {font-size: 1.25em;}
 	
-	p {font-size: 1em;}
+	p {font-size: .75em;}
 }
