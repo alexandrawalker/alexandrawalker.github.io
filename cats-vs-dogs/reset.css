@@ -118,7 +118,7 @@ li {
 
 
 ul li:after { 
-	content: " \00b7"; 
+	content: "&bull"; 
 	font-size:1.5em;
 }
 
