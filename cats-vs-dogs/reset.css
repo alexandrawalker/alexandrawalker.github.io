@@ -203,5 +203,5 @@ footer {
 	
 	p {font-size: .75em;}
 	
-	#cats, #dogs {float:none; max-width:75%;}
+	#cats, #dogs {float:none; width:75%;}
 }
