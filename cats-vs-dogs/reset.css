@@ -195,17 +195,8 @@ footer {
 	color: #000;
 }
 
-@media screen and (max-width:320px) {
-	#top-menu {font-size: .75em;}
-	
-	h2 {font-size: 1em;}
-	
-	p {font-size: .75em;}
-	
-	#cats, #dogs {float:none; max-width:75%;}
-}
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:500px) {
 	#top-menu {font-size: .75em;}
 	
 	h2 {font-size: 1.25em;}
