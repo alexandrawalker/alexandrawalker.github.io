@@ -205,6 +205,8 @@ footer {
 	h2 {font-size: 1em;}
 	
 	p {font-size: .75em;}
+	
+	img {float:none; max-width:75%;}
 }
 
 @media screen and (max-width:600px) {
@@ -213,4 +215,6 @@ footer {
 	h2 {font-size: 1.25em;}
 	
 	p {font-size: .75em;}
+	
+	img {float:none; max-width:75%;}
 }
