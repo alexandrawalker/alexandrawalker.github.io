@@ -198,3 +198,16 @@ footer {
 	text-decoration: none;
 	color: #000;
 }
+
+@media screen and (max-width:320px){
+	#top-menu {
+		font-size: .75em;
+	}
+	h2 {
+		font-size: 1em;
+	}
+	
+	p {
+		font-size: .5em;
+	}
+}
