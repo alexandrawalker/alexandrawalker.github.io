@@ -99,8 +99,34 @@ body {
 }
 
 header h1 {
-	display: block;
+	text-align:center;
+	width: 100%;
+	padding-top:4em;
+	padding-bottom:1em;
+}
+.cats, .dogs {
+	font-size:9em;
+	font-family: 'league_gothicregular';
+	margin-top:5em;
+	margin-bottom:.2em;
+	text-transform:uppercase;
 	text-align: center;
+}
+
+.vs {
+	font-size:4em;
+	font-family: 'georgia';
+	color:silver;
+	text-transform:lowercase;
+	text-align: center;
+	padding:2%;
+	font-style:italic;
+	font-weight:bold;
+	border-top:double;
+	border-bottom:double;
+	vertical-align: top;
+	position: relative;
+	padding:0px 8px 0px 8px;
 }
 
 #top-menu {
@@ -132,7 +158,7 @@ li {
 	padding: 20px;
 	text-decoration: none;
 	color: #000;
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 
 #cats {
@@ -222,4 +248,5 @@ footer {
 	
 	
 }
+
 
