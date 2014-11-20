@@ -236,17 +236,34 @@ footer {
 
 
 @media screen and (max-width:500px) {
-	#top-menu {font-size: .75em;}
+	#top-menu {font-size: 1em;}
 	
-	h2 {font-size: 1.25em;}
+	h2 {font-size: 1.5em;}
 	
-	p {font-size: .75em;}
+	p {font-size: 1em;}
 	
 	#cats, #dogs {float:none; width:90%;}
 	
 	header h1 img {max-width:75%;}
 	
+	@media screen and (max-width:1000px) {
 	
-}
+	.cats, .dogs {
+		font-size:4em;
+		font-family: 'league_gothicregular';
+		margin-top:5em;
+		margin-bottom:.2em;
+		
+	}
+	
+	.vs {
+			font-size:2em;
+			padding:2%;
+			border-top:double;
+			border-bottom:double;
+			vertical-align: top;
+			position: relative;
+			padding:0px 8px 0px 8px;
+		}
 
 
