@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 
 
 #header-wrapper {
-	height:40px;
+	height:30px;
 	
 }
 
@@ -46,26 +46,16 @@ header {
 
 #menu { float:left;}
 
-#menu ul {  
-    list-style:none;  
-    width:650px;  
-    margin:30px auto 0px auto;  
-    height:43px;  
-	margin-top:50px;
-    padding:0px 20px 0px 20px;
-	list-style: none;  
+#menu ul { 
+	margin-right:20px;
+	position:absolute;
+	right:20px;
+	top:20px; 
 }
 
 
 #menu li {  
-    float:left;  
-    display:inline-block;  
-    text-align:center;  
-    position:relative;  
-    padding: 6px 15px;  
-    margin-right:50px;  
-    border: 1px solid white;  
-	list-style: none;
+    display:block;
 }
 
 #menu li:hover {  
@@ -78,26 +68,13 @@ header {
 #menu li a {  
     font-family:Arial, Helvetica, sans-serif;  
     font-size:14px;  
-    color: gray;  
-    display:block;  
+    color: gray;    
     outline:0;  
     text-decoration:none;  
 	list-style: none;
 }
 
-#menu li ul {
-	display:none;
-	position:absolute;
-	top:20px;
-}
-
-#menu_mobile{
-	display:none;
-}
-
 #projects {
-	clear:both;
-	float:left;
 }
 
 #projects p {
@@ -105,18 +82,11 @@ header {
 }
 
 #projects img {
-	float:left;
 	margin:0 auto;
-	display:block;
+	display:inline-block;
+	float:left;
 }
 
 #proj1 {
-	margin-top:70%;
-}
-
-@media screen and (max-width:1024px) {
-	#mobile-menu {
-		display:none;
-	}
-	
+	margin-top:10%;
 }
