@@ -203,10 +203,20 @@ header {
 
 
 @media screen and (max-width:500px) {
+	
+	header {
+		position:fixed;
+	    background-color:white;
+		height:170px;
+		z-index:100;
+	}
+	
 	.logo{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
+		position: absolute;
+		left: 50%; 
+		margin-left: -100px;
+		margin-top: 0px;
+		z-index:1;
 	}
 
 	#proj1 img{
