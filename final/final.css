@@ -45,6 +45,17 @@ header {
 	z-index:100;
 }
 
+.work:hover a {
+	color:chartreuse;
+	background-color: transparent;
+	
+}
+
+.about:hover a {
+	color:chartreuse;
+	background-color: transparent;
+	
+}
 .hamburger { float:left;}
 
 .hamburger ul { 
@@ -75,6 +86,7 @@ header {
     outline:0;  
     text-decoration:none;  
 	list-style:none;
+	letter-spacing: 1px;
 }
 
 .hamburger img {
@@ -97,11 +109,17 @@ header {
 .proj1 {
 	background:#FFF; 
 	opacity:0;
+	font-family: 'Lato', sans-serif;
+	text-transform:uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
 }
 
 .proj1:hover {
 		background:#FFF; 
 		opacity:1;
+		color:chartreuse;
+		background-color: transparent;
 }
 #proj1:hover {
 	opacity:0.6;  
