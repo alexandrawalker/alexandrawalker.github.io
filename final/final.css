@@ -42,95 +42,93 @@ header {
 	top:0px;
     background-color:white;
 	width:100%;
+	z-index:100;
 }
 
-#menu { float:left;}
+.hamburger { float:left;}
 
-#menu ul { 
+.hamburger ul { 
+	display:none;
+	margin-right:20px;
+	position:absolute;
+	right:30px;
+	top:60px; 
+	height:200px;
+}
+
+
+.hamburger li {  
+    display:block;
+}
+
+.hamburger:hover ul {  
+    display:block; 
+}
+
+.hamburger li a {  
+    font-family: 'Lato', sans-serif;
+	text-align:right;
+	text-transform:uppercase; 
+	font-weight:bold;
+    font-size:17px;  
+    color: black;    
+    outline:0;  
+    text-decoration:none;  
+	list-style:none;
+}
+
+.hamburger img {
+	height:40px;
 	margin-right:20px;
 	position:absolute;
 	right:20px;
 	top:20px; 
 }
 
-
-#menu li {  
-    display:block;
-}
-
-#menu li:hover {  
-    border: 1px solid #E0E0E0;  
-    background: #F4F4F4;  
-
-}
-
-
-#menu li a {  
-    font-family:Arial, Helvetica, sans-serif;  
-    font-size:14px;  
-    color: gray;    
-    outline:0;  
-    text-decoration:none;  
-	list-style: none;
-}
-
 #projects {
-}
-
-#projects p {
-	width:5%;
-}
-
-#projects img {
-	margin:0 auto;
-	display:inline-block;
-	float:left;
-}
-
-#proj1 {
+	z-index:1;
 	margin-top:12%;
 }
 
-#return-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    display: none;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+#projects article {
+	display:inline-block;
 }
-#return-to-top i {
-    color: #fff;
-    margin: 0;
-    position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+
+.proj1 {
+	background:#FFF; 
+	opacity:0;
 }
-#return-to-top:hover {
-    background: rgba(0, 0, 0, 0.9);
+
+.proj1:hover {
+		background:#FFF; 
+		opacity:1;
 }
-#return-to-top:hover i {
-    color: #fff;
-    top: 5px;
+#proj1:hover {
+	opacity:0.6;  
+	color:#000000;
 }
+
+}
+.proj2 {
+	background:#FFF; 
+	opacity:1;
+}
+#proj2:hover {
+	margin:0 auto;
+	opacity:0.6;  
+	color:#000000; 
+}
+
+.proj3 {
+	background:#FFF; 
+	opacity:0;
+}
+#proj3:hover {
+	margin:0 auto;
+	opacity:0.6;  
+	color:#000000; 
+}
+
 
 
 @media screen and (max-width:750px) {
