@@ -29,6 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+
+
+
 #header-wrapper {
 	height:30px;
 	
@@ -93,33 +96,35 @@ header {
 	right:20px;
 	top:20px; 
 }
-
-#contentwrapper {
-	width: 450px;
-}
-
-#images {
+.hello {
 	float:left;
-}
-
-.projecttitle {
 	font-family: 'Lato', sans-serif;
-	font-weight: 700;
+	font-weight:700;
 	margin-top:200px;
 	margin-left:25px;
 	margin-right:20px;
 	font-weight: bold;
-	font-size:1.25em;
+	font-size:1.5em;
 	text-transform:uppercase;
 	letter-spacing:1px;
+	color:chartreuse;
+	
 	
 }
 
-.projectinfo{
+.info{
+	float:left;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	margin-top:15px;
+	margin-top:200px;
 	margin-left:25px;
 	margin-right:20px;
 	margin-bottom:40px;
+	letter-spacing:1px;
+	width:35%;
+}
+
+.images {
+	float:left;
+	margin-top:200px;
 }
