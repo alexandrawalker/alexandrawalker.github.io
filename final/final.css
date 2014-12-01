@@ -45,14 +45,15 @@ header {
 	z-index:100;
 }
 
+
 .work:hover a {
-	color:chartreuse;
+	color:OrangeRed;
 	background-color: transparent;
 	
 }
 
 .about:hover a {
-	color:chartreuse;
+	color:OrangeRed;
 	background-color: transparent;
 	
 }
@@ -262,6 +263,70 @@ header {
 
 
 @media screen and (max-width:500px) {
+	
+	header {
+		position:fixed;
+	    background-color:white;
+		height:170px;
+		z-index:100;
+	}
+	
+	.logo{
+		position: absolute;
+		left: 50%; 
+		margin-left: -100px;
+		margin-top: 0px;
+		z-index:1;
+	}
+
+	#proj1 img{
+		width:100%;
+		float:left;
+	
+	}
+
+	#proj2 img{
+		width:100%;
+		float:left;
+	}
+
+	#proj3 img{
+		width:100%;
+		float:left;
+	}
+
+	#proj4 img{
+		width:100%;
+		float:left;
+	}
+
+	#proj5 img{
+		width:100%;
+		float:left;
+	}
+
+	#proj6 img{
+		width:100%;
+		float:left;
+	}
+
+	#proj7 img{
+		width:100%;
+		float:left;
+	}
+
+	#proj8 img{
+		width:100%;
+		float:left;
+	}
+
+	#proj9 img{
+		width:100%;
+		float:left;
+	}
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
 	
 	header {
 		position:fixed;
