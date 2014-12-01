@@ -96,15 +96,23 @@ header {
 	right:20px;
 	top:20px; 
 }
-.hello {
+
+.about {
+	width:35%;
 	float:left;
+	padding-right:10px;
+	
+}
+
+
+.hello {
 	font-family: 'Lato', sans-serif;
 	font-weight:700;
 	margin-top:200px;
 	margin-left:25px;
 	margin-right:20px;
 	font-weight: bold;
-	font-size:1.5em;
+	font-size:3em;
 	text-transform:uppercase;
 	letter-spacing:1px;
 	color:chartreuse;
@@ -113,18 +121,15 @@ header {
 }
 
 .info{
-	float:left;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	margin-top:200px;
 	margin-left:25px;
 	margin-right:20px;
 	margin-bottom:40px;
 	letter-spacing:1px;
-	width:35%;
 }
 
 .images {
 	float:left;
-	margin-top:200px;
+	margin-top:260px;
 }
