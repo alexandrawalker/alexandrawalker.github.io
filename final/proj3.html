@@ -4,6 +4,39 @@
 	  <title>Alexandra Walker</title>
 	  <link rel="stylesheet" href="proj3.css" type="text/css" media="screen">
 	  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
+	          <link rel="stylesheet" href="colorbox/colorbox.css">
+	          <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+	          <script src="colorbox/jquery.colorbox-min.js"></script>
+	  <script>
+	  			$(document).ready(function(){
+	  				//Examples of how to assign the Colorbox event to elements
+	  				$(".group1").colorbox({rel:'group1'});
+	  				$(".group2").colorbox({rel:'group2', transition:"fade"});
+	  				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+	  				$(".group4").colorbox({rel:'group4', slideshow:true});
+	  				$(".ajax").colorbox();
+	  				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+	  				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+	  				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+	  				$(".inline").colorbox({inline:true, width:"50%"});
+	  				$(".callbacks").colorbox({
+	  					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+	  					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+	  					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+	  					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+	  					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+	  				});
+
+	  				$('.non-retina').colorbox({rel:'group5', transition:'none'})
+	  				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+				
+	  				//Example of preserving a JavaScript event for inline calls.
+	  				$("#click").click(function(){ 
+	  					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+	  					return false;
+	  				});
+	  			});
+	  		</script>
   </head>
   <body>
 	  <div id='header-wrapper'>
@@ -23,14 +56,15 @@
   </div>
   <div id="contentwrapper">		
      <div class="title">
-     <h3 class="projecttitle">Editorial Spreads</h3>
-     <p class="projectinfo">Four Editorial spreads for the short story Why Write? by 
-     </p>
-     </div>
-   	<div id="images">
- 		   <img src="images/editorial1.jpg" alt="editorial1"width="500px"><h2></h2></a>
-		   <img src="images/editorial2.jpg" alt="editorial2"width="500px"><h2></h2></a>
-		   <img src="images/editorial3.jpg" alt="editorial3"width="500px"><h2></h2></a>
- 	  </div>
+       <h3 class="projecttitle">Editorial Spreads</h3>
+	 </div>
+       <p class="projectinfo">Four editorial spreads for the short story Why Write? by Paul Auster.
+	   </p>
+   </div>
+	<div class="images">
+			<p><a class="group2" href="images/editorial1.jpg" title="Editorial Spread 1"><img src="images/editorial1.jpg"></a></p>
+			<p><a class="group2" href="images/editorial2.jpg" title="Editorial Spread 2"><img src="images/editorial2.jpg"></a></p>
+			<p><a class="group2" href="images/editorial3.jpg" title="Editorial Spread 3"><img src="images/editorial3.jpg"></a></p>
+		</div>
 </body>
 </html>

@@ -95,11 +95,20 @@ header {
 }
 
 #contentwrapper {
-	width: 450px;
+	position:fixed;
+	width:25%;
+	float:left;
 }
 
-#images {
+.images {
+	width:70%;
 	float:left;
+}
+
+.images:hover {
+		margin:0 auto;
+		opacity:0.6;  
+		color:#000000; 
 }
 
 .projecttitle {
@@ -107,7 +116,6 @@ header {
 	font-weight: 700;
 	margin-top:200px;
 	margin-left:25px;
-	margin-right:20px;
 	font-weight: bold;
 	font-size:1.25em;
 	text-transform:uppercase;
@@ -118,8 +126,7 @@ header {
 .projectinfo{
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	margin-top:15px;
+	margin-top:230px;
 	margin-left:25px;
-	margin-right:20px;
 	margin-bottom:40px;
 }
