@@ -29,9 +29,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-
-
-
 #header-wrapper {
 	height:30px;
 	
@@ -97,83 +94,44 @@ header {
 	top:20px; 
 }
 
-.about {
-	width:35%;
+#contentwrapper {
+	position:fixed;
+	width:25%;
 	float:left;
-	padding-right:10px;
-	
+	padding-right:20px;
 }
 
+.images {
+	margin-left:100px;
+	margin-top:200px;
+	width:70%;
+	float:left;
+	padding-left:25%;
+}
 
-.hello {
+.images:hover {
+		margin-top:200px;
+		opacity:0.6;  
+		color:#000000; 
+}
+
+.projecttitle {
 	font-family: 'Lato', sans-serif;
-	font-weight:700;
+	font-weight: 700;
 	margin-top:200px;
 	margin-left:25px;
-	margin-right:20px;
 	font-weight: bold;
-	font-size:3em;
+	font-size:1.25em;
 	text-transform:uppercase;
 	letter-spacing:1px;
 	color:OrangeRed;
 	
-	
 }
 
-.info{
+.projectinfo{
+	margin-top:5px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	margin-left:25px;
-	margin-right:20px;
 	margin-bottom:40px;
-	letter-spacing:1px;
-	
 }
-
-.images {
-	float:left;
-	margin-top:250px;
-	margin-bottom:20px;
-}
-
-.resume {
-	float:left;
-	margin-left:40px;
-}
-
-.resume p {
-	font-family: 'Lato', sans-serif;
-	text-transform:uppercase;
-	letter-spacing:1px;
-	font-weight: 400;
-	font-weight: bold;
-	margin-left:15px;
-	font-size:.75em;
-}
-
-.email {
-	float:left;
-	margin-left:70px;
-
-}
-
-.email p {
-	font-family: 'Lato', sans-serif;
-	text-transform:uppercase;
-	letter-spacing:1px;
-	font-weight: 400;
-	font-weight: bold;
-	font-size:.75em;
-}
-
-@media screen and (max-width:750px) {
-	.images{
-		width:50%;
-	}
-}
-@media screen and (max-width:500px) {
-	
-	.images{
-		width:50%;
-	}
- }

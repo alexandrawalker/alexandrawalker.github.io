@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <title>Alexandra Walker</title>
+	  <link rel="stylesheet" href="proj9.css" type="text/css" media="screen">
+	  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
+	          <link rel="stylesheet" href="colorbox/colorbox.css">
+	          <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+	          <script src="colorbox/jquery.colorbox-min.js"></script>
+	  <script>
+	  			$(document).ready(function(){
+	  				//Examples of how to assign the Colorbox event to elements
+	  				$(".group1").colorbox({rel:'group1'});
+	  				$(".group2").colorbox({rel:'group2', transition:"fade"});
+	  				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+	  				$(".group4").colorbox({rel:'group4', slideshow:true});
+	  				$(".ajax").colorbox();
+	  				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+	  				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+	  				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+	  				$(".inline").colorbox({inline:true, width:"50%"});
+	  				$(".callbacks").colorbox({
+	  					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+	  					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+	  					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+	  					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+	  					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+	  				});
+
+	  				$('.non-retina').colorbox({rel:'group5', transition:'none'})
+	  				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+				
+	  				//Example of preserving a JavaScript event for inline calls.
+	  				$("#click").click(function(){ 
+	  					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+	  					return false;
+	  				});
+	  			});
+	  		</script>
+  </head>
+  <body>
+	  <div id='header-wrapper'>
+	  <header>
+	  <div class="logo">
+			  <a href="index.html"><img src="images/logo.png" alt="logo" width="175px"></a>
+	  </div>
+		  <nav>
+		  <div class="hamburger"><img src="images/hamburger.jpg">
+		  	  <ul>  
+		  	   <div class="work"> <li><a href="index.html">Work</a></li></div> 
+		  	    <div class="about"><li><a href="about.html">About</a></li></div>  
+		  	 </ul>
+		</div>
+		</nav>
+	  </header>
+  </div>
+  <div id="contentwrapper">		
+     <div class="title">
+       <h3 class="projecttitle">South Hingham Veterinary Site</h3>
+	 </div>
+       <p class="projectinfo">Non-profit WordPress implentation for a local vet.
+	   </p>
+   </div>
+	<div class="images">
+			<p><a class="group2" href="images/SHVS/2.jpg" title="2"><img src="images/SHVS/2.jpg"></a></p>
+			<p><a class="group2" href="images/SHVS/1.jpg" title="1"><img src="images/SHVS/1.jpg"></a></p>
+			<p><a class="group2" href="images/SHVS/3.jpg" title="3"><img src="images/SHVS/3.jpg"></a></p>
+			<p><a class="group2" href="images/SHVS/4.jpg" title="4"><img src="images/SHVS/4.jpg"></a></p>
+			<p><a class="group2" href="images/SHVS/5.jpg" title="5"><img src="images/SHVS/5.jpg"></a></p>
+			<p><a class="group2" href="images/SHVS/6.jpg" title="6"><img src="images/SHVS/6.jpg"></a></p>
+			<p><a class="group2" href="images/SHVS/7.jpg" title="7"><img src="images/SHVS/7.jpg"></a></p>
+			<p><a class="group2" href="images/SHVS/8.jpg" title="8"><img src="images/SHVS/8.jpg"></a></p>
+			<p><a class="group2" href="images/SHVS/9.jpg" title="9"><img src="images/SHVS/9.jpg"></a></p>
+			<p><a class="group2" href="images/SHVS/10.jpg" title="10"><img src="images/SHVS/10.jpg"></a></p>
+			<p><a class="group2" href="images/SHVS/11.jpg" title="11"><img src="images/SHVS/11.jpg"></a></p>
+			<p><a class="group2" href="images/SHVS/12.jpg" title="12"><img src="images/SHVS/12.jpg"></a></p>
+			<p><a class="group2" href="images/SHVS/13.jpg" title="13"><img src="images/SHVS/13.jpg"></a></p>
+			<p><a class="group2" href="images/SHVS/14.jpg" title="14"><img src="images/SHVS/14.jpg"></a></p>
+			<p><a class="group2" href="images/SHVS/15.jpg" title="15"><img src="images/SHVS/15.jpg"></a></p>
+			
+		</div>
+</body>
+</html>
