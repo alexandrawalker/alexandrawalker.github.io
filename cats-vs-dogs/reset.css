@@ -265,5 +265,22 @@ footer {
 			position: relative;
 			padding:0px 8px 0px 8px;
 		}
+		li {
+		   display:block;
+		}
+		
+		.bullet1 {
+			display:none;
+		}
+		.bullet2 {
+			display:none;
+		}
+		.bullet3 {
+			display:none;
+		}
+		.bullet4 {
+			display:none;
+		}
 
-
+		.menu a {
+			padding: 10px;
