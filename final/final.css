@@ -52,32 +52,34 @@ header {
 	
 }
 
-.about:hover a {
+.info:hover a {
 	color:OrangeRed;
 	background-color: transparent;
 	
 }
-.hamburger { float:left;}
+.mainnav { 
+	margin-right:1%;
+}
 
-.hamburger ul { 
-	display:none;
+.mainnav ul { 
 	margin-right:20px;
 	position:absolute;
-	right:30px;
+	right:50px;
 	top:60px; 
 	height:200px;
 }
 
 
-.hamburger li {  
+.mainnav li {
+	float:left;  
     display:block;
 }
 
-.hamburger:hover ul {  
+.mainnav:hover ul {  
     display:block; 
 }
 
-.hamburger li a {  
+.mainnav li a {  
     font-family: 'Lato', sans-serif;
 	text-align:right;
 	text-transform:uppercase; 
@@ -88,14 +90,7 @@ header {
     text-decoration:none;  
 	list-style:none;
 	letter-spacing: 1px;
-}
-
-.hamburger img {
-	height:40px;
-	margin-right:20px;
-	position:absolute;
-	right:20px;
-	top:20px; 
+	
 }
 
 #projects {
@@ -278,6 +273,53 @@ header {
 		margin-top: 0px;
 		z-index:1;
 	}
+	
+	.work:hover a {
+		color:OrangeRed;
+		background-color: transparent;
+	
+	}
+
+	.info:hover a {
+		color:OrangeRed;
+		background-color: transparent;
+	
+	}
+	.mainnav { 
+		margin-right:1%;
+	}
+
+	.mainnav ul { 
+		margin-right:20px;
+		position:absolute;
+		right:5px;
+		top:20px; 
+		height:200px;
+	}
+
+
+	.mainnav li {
+		float:left;  
+	    display:block;
+	}
+
+	.mainnav:hover ul {  
+	    display:block; 
+	}
+
+	.mainnav li a {  
+	    font-family: 'Lato', sans-serif;
+		text-align:right;
+		text-transform:uppercase; 
+		font-weight:bold;
+	    font-size:17px;  
+	    color: black;    
+	    outline:0;  
+	    text-decoration:none;  
+		list-style:none;
+		letter-spacing: 1px;
+	
+	}
 
 	#proj1 img{
 		width:100%;
@@ -326,7 +368,8 @@ header {
 	}
 }
 
-@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+@media only mobile and (min-device-width:320px) and (max-device-width:480px) {
+	
 	
 	header {
 		position:fixed;
@@ -342,6 +385,8 @@ header {
 		margin-top: 0px;
 		z-index:1;
 	}
+	
+	
 
 	#proj1 img{
 		width:100%;
