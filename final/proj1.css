@@ -48,15 +48,14 @@ header {
 	
 }
 
-.about:hover a {
+.info:hover a {
 	color:OrangeRed;
 	background-color: transparent;
 	
 }
-.hamburger { float:left;}
+.mainnav { float:left;}
 
-.hamburger ul { 
-	display:none;
+.mainnav ul { 
 	margin-right:20px;
 	position:absolute;
 	right:30px;
@@ -65,15 +64,15 @@ header {
 }
 
 
-.hamburger li {  
+.mainnav li {  
     display:block;
 }
 
-.hamburger:hover ul {  
+.mainnav:hover ul {  
     display:block; 
 }
 
-.hamburger li a {  
+.mainnav li a {  
     font-family: 'Lato', sans-serif;
 	text-align:right;
 	text-transform:uppercase; 
@@ -86,7 +85,7 @@ header {
 	letter-spacing: 1px;
 }
 
-.hamburger img {
+.mainnav img {
 	height:40px;
 	margin-right:20px;
 	position:absolute;
@@ -133,4 +132,121 @@ header {
 	font-weight: 400;
 	margin-left:25px;
 	margin-bottom:40px;
+}
+
+@media screen and (max-width:750px) {
+	header {
+		position:fixed;
+		top:0px;
+	    background-color:white;
+		width:100%;
+		z-index:100;
+	}
+	
+	#contentwrapper{
+		width:100%;
+	}
+
+.projecttitle {
+	
+}
+	.projectinfo {
+		float:left;
+	}
+	
+	.images {
+		float:left;
+		width:20%;
+		margin-top:300px;
+	}
+	
+	#contentwrapper {
+		position:fixed;
+		float:left;
+		padding-right:20px;
+		background:white;
+		z-index:99;
+	}
+	
+	.images:hover {
+			margin-top:300px;
+			opacity:0.6;  
+			color:#000000; 
+	}
+	
+ }
+
+
+@media screen and (max-width:500px) {
+	
+	header {
+		position:fixed;
+	    background-color:white;
+		height:170px;
+		z-index:100;
+	}
+	
+	.logo{
+		position: absolute;
+		left: 50%; 
+		margin-left: -100px;
+		margin-top: 0px;
+		z-index:1;
+	}
+	
+	.work:hover a {
+		color:OrangeRed;
+		background-color: transparent;
+	
+	}
+
+	.info:hover a {
+		color:OrangeRed;
+		background-color: transparent;
+	
+	}
+	.mainnav { 
+		margin-right:1%;
+	}
+
+	.mainnav ul { 
+		margin-right:20px;
+		position:absolute;
+		right:5px;
+		top:20px; 
+		height:200px;
+	}
+
+
+	.mainnav li {
+		float:left;  
+	    display:block;
+	}
+
+	.mainnav:hover ul {  
+	    display:block; 
+	}
+
+	.mainnav li a {  
+	    font-family: 'Lato', sans-serif;
+		text-align:right;
+		text-transform:uppercase; 
+		font-weight:bold;
+	    font-size:17px;  
+	    color: black;    
+	    outline:0;  
+	    text-decoration:none;  
+		list-style:none;
+		letter-spacing: 1px;
+	
+	}
+
+	.projectinfo {
+		float:left;
+	}
+	.images {
+		float:left;
+		width:20%;
+		margin-top:300px;
+	}
 }

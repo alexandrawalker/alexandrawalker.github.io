@@ -54,6 +54,7 @@ table {
 /* END RESET */
 
 body{
+	font-family: 'Lato', sans-serif;
 }
 
 header h1 {
@@ -64,6 +65,7 @@ header h1 {
 	font-family: sans-serif;
 	font-variant: small-caps;
 	font-weight: bold;
+	font-family: 'Lato', sans-serif;
 }
 
 #serves { 
@@ -71,12 +73,16 @@ header h1 {
 	font-variant: lowercase;
 	font-size: 1em;
 	font-family: serif;
+	font-family: 'Lato', sans-serif;
 }
 
 #ingredients {
+	line-spacing:1em;
 	margin-left:2%;
 	width: 30%;
 	float: left;
+	padding:5px;
+	line-height: 125%;
 }
 
 #ingredients h2{
@@ -87,13 +93,16 @@ header h1 {
 #method {
 	width: 40%;
 	float: left;
+	padding:5px;
+	line-height: 125%;
 }
 #method h2{
 	font-weight: bold;
+	
 }
 
 #footer {
 	margin-left:2%;
 	clear: both;
-	text-decoration: none;
+	text-decoration:none;
 }
